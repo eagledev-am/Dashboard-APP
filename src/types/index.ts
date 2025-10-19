@@ -41,3 +41,12 @@ export interface WeatherData {
     icon: string;
   }>;
 }
+
+export type NotePriority = 'important' | 'normal' | 'delayed';
+
+export interface Note {
+  id: string;
+  content: string;
+  priority: NotePriority;
+  createdAt: Date;
+}
