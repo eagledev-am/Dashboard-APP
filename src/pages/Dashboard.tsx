@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Users, StickyNote, BarChart3, CloudSun } from 'lucide-react';
+import { Users, StickyNote, BarChart3, CloudSun, LayoutDashboard } from 'lucide-react';
 
 export const Dashboard = () => {
   const { logout } = useAuth();
@@ -39,10 +39,13 @@ export const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <nav className="bg-white shadow-sm px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Dashboard</h1>
+        <div className="flex items-center gap-3">
+          <LayoutDashboard className="w-7 h-7 text-blue-600" />
+          <h1 className="text-2xl font-bold">Dashboard</h1>
+        </div>
         <button
           onClick={logout}
-          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+          className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition"
         >
           Logout
         </button>

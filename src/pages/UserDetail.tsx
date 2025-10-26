@@ -49,17 +49,28 @@ export const UserDetail = () => {
 
       <div className="container mx-auto px-6 py-8">
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h1 className="text-3xl font-bold mb-4">{user?.name}</h1>
-          <div className="grid grid-cols-2 gap-4 text-gray-600">
+          <div className="flex items-center gap-6 mb-6">
+            <img
+              src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${user?.username}`}
+              alt={user?.name}
+              className="w-32 h-32 rounded-full border-4 border-blue-500"
+            />
             <div>
-              <p><strong>Username:</strong> {user?.username}</p>
+              <h1 className="text-3xl font-bold mb-2">{user?.name}</h1>
+              <p className="text-gray-600 text-lg">@{user?.username}</p>
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-600">
+            <div>
               <p><strong>Email:</strong> {user?.email}</p>
               <p><strong>Phone:</strong> {user?.phone}</p>
+              <p><strong>Website:</strong> {user?.website}</p>
             </div>
             <div>
-              <p><strong>Website:</strong> {user?.website}</p>
               <p><strong>Company:</strong> {user?.company.name}</p>
               <p><strong>City:</strong> {user?.address.city}</p>
+              <p><strong>Address:</strong> {user?.address.street}, {user?.address.suite}</p>
             </div>
           </div>
         </div>

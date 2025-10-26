@@ -32,11 +32,14 @@ export const UsersList = () => {
             <Link
               key={user.id}
               to={`/users/${user.id}`}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition flex flex-col items-center"
             >
-              <h3 className="text-xl font-bold mb-2">{user.name}</h3>
-              <p className="text-gray-600">@{user.username}</p>
-              <p className="text-gray-500 text-sm mt-2">{user.email}</p>
+              <img
+                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${user.username}`}
+                alt={user.name}
+                className="w-24 h-24 rounded-full mb-4"
+              />
+              <h3 className="text-xl font-bold text-center">{user.name}</h3>
             </Link>
           ))}
         </div>

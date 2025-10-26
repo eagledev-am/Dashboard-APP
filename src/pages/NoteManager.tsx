@@ -128,7 +128,7 @@ export const NoteManager = () => {
       </nav>
 
       <div className="container mx-auto px-6 py-8 max-w-6xl">
-        {/* Add Note Section */}
+    
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-xl font-bold mb-4">Add New Note</h2>
           
