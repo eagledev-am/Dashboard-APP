@@ -2,7 +2,7 @@
 
 A modern, feature-rich dashboard application built with React, TypeScript, and Vite. This application provides user management, analytics, and real-time weather information.
 
-## 🚀 Features
+## Features
 
 - **Authentication System**: Secure login with credential validation
 - **User Management**: Browse users, view detailed profiles with posts and todos
@@ -28,7 +28,7 @@ A modern, feature-rich dashboard application built with React, TypeScript, and V
 - [Building for Production](#building-for-production)
 - [Troubleshooting](#troubleshooting)
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
 - **npm** (v7.0.0 or higher) or **yarn**
 - **Git** (for cloning the repository)
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -56,7 +56,7 @@ Before you begin, ensure you have the following installed:
 
 4. **Configure your environment variables** (see [Environment Variables](#environment-variables))
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory with the following variables:
 
@@ -79,7 +79,7 @@ VITE_ADMIN_PASSWORD=admin123
 
 **Note**: The free tier allows 60 calls/minute and 1,000,000 calls/month.
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Development Mode
 
@@ -96,7 +96,7 @@ The application will start at `http://localhost:5173`
 
 (These can be changed in the `.env` file)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 crads-app/
@@ -132,7 +132,7 @@ crads-app/
 └── README.md                        # This file
 ```
 
-## 📖 Features Documentation
+## Features Documentation
 
 ### 1. Authentication System
 
@@ -252,7 +252,7 @@ Base URL: `https://api.openweathermap.org/data/2.5`
 }
 ```
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Core
 - **React 18** - UI library
@@ -274,7 +274,7 @@ Base URL: `https://api.openweathermap.org/data/2.5`
 - **TypeScript ESLint** - TypeScript linting
 - **Vite Plugin React** - React support for Vite
 
-## 💻 Development
+## Development
 
 ### Available Scripts
 
@@ -337,11 +337,11 @@ If you encounter issues:
 4. Ensure environment variables are set correctly
 5. Try clearing cache and rebuilding
 
-## 📝 License
+## License
 
 This project is for educational purposes.
 
-## 👥 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -349,7 +349,7 @@ This project is for educational purposes.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📧 Contact
+## Contact
 
 For questions or support 📬 [Email Me](mailto:abdo@example.com)
 , please open an issue in the repository.
