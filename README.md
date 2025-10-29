@@ -216,7 +216,7 @@ toggleTodo(todoId);
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
 ```
 
-## 🔌 API References
+## API References
 
 ### JSONPlaceholder API
 
@@ -351,5 +351,5 @@ This project is for educational purposes.
 
 ## Contact
 
-For questions or support 📬 [Email Me](mailto:abdo@example.com)
+For questions or support  [Email Me](mailto:abdo@example.com)
 , please open an issue in the repository.
